@@ -14,8 +14,6 @@ spring:
     banner-mode: off
 
 logging:
-  pattern:
-    console: ""
   file:
     name: /logstuff/mcp-server.log
 
