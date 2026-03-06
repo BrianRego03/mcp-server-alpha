@@ -1,3 +1,21 @@
 spring:
   application:
     name: mcpalpha
+
+  ai:
+    mcp:
+      server:
+        type: SYNC
+        name: misc-endpoint-mcp-server
+        version: 1.0.0
+
+  main:
+    web-application-type: none
+    banner-mode: off
+
+logging:
+  pattern:
+    console: ""
+  file:
+    name: /logstuff/mcp-server.log
+
